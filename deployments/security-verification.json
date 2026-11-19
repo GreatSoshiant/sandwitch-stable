@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-11-18T22:12:26.141Z",
+  "url": "https://tidewater-pay.vercel.app/",
+  "account": "0xCd657Feb6481d5F922c87FEDcA3f470D36EcD341",
+  "backupSameAddress": true,
+  "backupPayment": true,
+  "backupRevoked": true,
+  "recoveryFileHasNoPrivateKey": true,
+  "limitedPaymentWithoutExtraPasskeyPrompt": true,
+  "sessionRevoked": true,
+  "livePoolPriceChangedAndRestored": true,
+  "confirmedTransactions": [
+    {
+      "title": "Backup access removed",
+      "url": "https://sepolia.arbiscan.io/tx/0x975c8f306b74b52cbb04784052f7386f8a1e29f8889183cefc184ce49c162366"
+    },
+    {
+      "title": "Test pool restored",
+      "url": "https://sepolia.arbiscan.io/tx/0x5452e0bc562e53770b53e73b0f9cbb29356f27142b1ef774e92baafd0aed22bb"
+    },
+    {
+      "title": "Test pool price changed",
+      "url": "https://sepolia.arbiscan.io/tx/0xe82976959d68df88af1bfaca6fe1442b243f60545fc60611005476c94ccf6c38"
+    },
+    {
+      "title": "Payment session revoked",
+      "url": "https://sepolia.arbiscan.io/tx/0x90067d814cbaac834efffee60a6ef4df702b9aaf553db2dbd0cd93ce3bb78d8e"
+    },
+    {
+      "title": "Payment to Kessler",
+      "url": "https://sepolia.arbiscan.io/tx/0x5f8b4816fef00e3af96899270c8d8dfd430a42c19c48a737fc2eebc5bc3ca1de"
+    }
+  ],
+  "protectionCheck": "actual contract simulation rejected the old capped invoice; no failing invoice broadcast",
+  "device": "Chromium virtual WebAuthn authenticator; physical devices still need manual checks"
+}

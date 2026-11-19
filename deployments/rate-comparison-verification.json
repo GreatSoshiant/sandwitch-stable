@@ -1,0 +1,22 @@
+{
+  "verifiedAt": "2026-11-19T14:28:40.812Z",
+  "url": "https://tidewater-pay.vercel.app/",
+  "poolQuote": "real Uniswap v3 on Arbitrum Sepolia",
+  "comparisonFixture": {
+    "usdcPerEuro": 1.1,
+    "for1000": "1100 USDC",
+    "for100": "110 USDC"
+  },
+  "overviewAndPaymentVerified": true,
+  "amountAndPercentDifferenceUnitTested": true,
+  "mobileLayoutVerified": true,
+  "poolQuoteSurvivesMissingReference": true,
+  "publicCoinGeckoEndpoint": {
+    "live": true,
+    "source": "CoinGecko · EURC/USDC reference",
+    "updatedAt": 1795098472000,
+    "usdcPerEuro": 1.0994463752283428
+  },
+  "testFundsMinted": false,
+  "paymentSent": false
+}

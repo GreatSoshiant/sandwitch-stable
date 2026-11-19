@@ -1,0 +1,23 @@
+{
+  "verifiedAt": "2026-11-19T14:48:19.633Z",
+  "url": "https://tidewater-pay.vercel.app/",
+  "mode": "Preview",
+  "mockedSources": false,
+  "uniswap": {
+    "source": "Uniswap Quoter on Arbitrum Sepolia",
+    "pool": "0x286D576d3c8f471E12DB1B806FcA483Ec79d1a88",
+    "quoter": "0x03ae4004e070d15016b0a4f0feaf6a5abc7b7829",
+    "eurcAmount": "1000000000",
+    "usdcCost": "1130422482",
+    "effectiveRate": 1.130422482
+  },
+  "coinGecko": {
+    "live": true,
+    "usdcPerEuro": 1.0994331766716086,
+    "referenceCost": "1099433180"
+  },
+  "bothOverviewAndPaymentVerified": true,
+  "noSignInRequired": true,
+  "noTokensMinted": true,
+  "noPaymentSent": true
+}

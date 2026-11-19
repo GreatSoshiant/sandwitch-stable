@@ -1,0 +1,11 @@
+# Upload only the web app. Never upload local keys, scripts, test credentials,
+# deployment journals, browser recordings, or repository metadata.
+/*
+!src
+!public
+!package.json
+!package-lock.json
+!tsconfig.json
+!next-env.d.ts
+!next.config.ts
+!vercel.json

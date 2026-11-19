@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-11-18T18:32:51.194Z",
+  "chainId": 421614,
+  "owner": "disposable ECDSA owner for policy tests; browser passkeys tested separately",
+  "account": "0x694750Ac9B2c003E3d049F746c9C17B8e4Fb6b07",
+  "payment": "0x911bc2cb563c69eeef4aaa0bd5e4da46c439aa550eae3f4e676f540a7033d8fd",
+  "revocation": "0x029e3b1f9158eb1e61414dbe68a6ee836c30ac89607ff1405e3051839f7043f6",
+  "rejected": [
+    "arbitrary USDC recipient",
+    "approval to another spender",
+    "native ETH transfer",
+    "euro cap exceeded",
+    "USDC cap exceeded",
+    "different invoice ID",
+    "deadline beyond permission expiry",
+    "second operation"
+  ],
+  "temporaryPrivateKeysSaved": false
+}

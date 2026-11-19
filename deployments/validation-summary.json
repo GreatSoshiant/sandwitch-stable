@@ -1,0 +1,96 @@
+{
+  "verifiedAt": "2026-11-19T14:49:25.111Z",
+  "productionUrl": "https://tidewater-pay.vercel.app",
+  "typescript": "passed",
+  "productionBuild": "passed in local build and final Vercel deployment",
+  "unitTests": {
+    "passed": 33
+  },
+  "contractIntegrationChecks": [
+    "deterministic backup proxies with independent storage",
+    "exact EURC delivery and net USDC debit",
+    "unused-input refund and cleared allowances",
+    "single-use invoice replay rejected",
+    "price-cap failure and expiry roll back atomically"
+  ],
+  "previewBrowserTests": {
+    "passed": 20,
+    "projects": [
+      "Chromium desktop",
+      "Chromium mobile emulation",
+      "Firefox desktop",
+      "WebKit desktop",
+      "WebKit iPhone emulation"
+    ]
+  },
+  "liveHostedScenarios": {
+    "passed": [
+      "lost broadcast response, reload and receipt recovery without duplicate delivery",
+      "sponsored payment, passkey-approved session and returning login",
+      "same-wallet backup recovery/payment/removal, session payment/revocation, actual price movement/protection and reverse swap"
+    ],
+    "note": "Hosted checks passed across runs. One returning-login request received Unauthorized from the passkey service; the isolated recheck passed. No payment was re-submitted."
+  },
+  "onchainPermissionRejections": [
+    "arbitrary USDC recipient",
+    "another approval spender",
+    "native ETH transfer",
+    "euro cap exceeded",
+    "USDC cap exceeded",
+    "different invoice",
+    "deadline beyond session expiry",
+    "second operation"
+  ],
+  "physicalDevices": {
+    "status": "manual checks pending",
+    "checklist": "docs/device-checks.md"
+  },
+  "dedicatedChainAndUsdcNativeGas": "excluded by user",
+  "swapVisibility": {
+    "separateSwapActivity": true,
+    "exactTokenAmounts": true,
+    "fullTransactionHash": true,
+    "sharedSwapAndPaymentReceipt": true,
+    "previewRemainsSimulated": true,
+    "confirmedHistoryRestoredOnReturningLogin": true,
+    "refreshDoesNotDuplicate": true,
+    "mobileHashFitsViewport": true,
+    "existingPaymentReadOnlyLookupVerified": true,
+    "hostedCasesPassed": 2
+  },
+  "loginOptions": {
+    "accountCreationCard": true,
+    "expandableBackupRecovery": true,
+    "customJsonPicker": true,
+    "actionSpecificLoadingStates": true,
+    "localProductionBrowserChecks": [
+      "Chromium desktop 1280x1000",
+      "WebKit mobile viewport 390x844"
+    ],
+    "nativeFileChooserOpened": true,
+    "cancelSelectionHandled": true,
+    "invalidFileRemainsOnLogin": true,
+    "longFilenameFitsViewport": true,
+    "build": "passed",
+    "existingPreviewBrowserTests": 10
+  },
+  "rateComparison": {
+    "uniswapQuotePrimary": true,
+    "costForSameInvoice": true,
+    "usdcAndPercentageDifference": true,
+    "marketRateUsesBothTokenUsdPrices": true,
+    "staleReferencesHidden": true,
+    "liveQuoteIndependentOfReference": true,
+    "overviewAndPaymentScreens": true,
+    "liveReadOnlyBrowserVerification": "deployments/rate-comparison-verification.json",
+    "noTestFundsMintedOrPaymentsSentForComparisonCheck": true
+  },
+  "previewRateIndependence": {
+    "configuredPreviewReadsUniswap": true,
+    "coinGeckoIsSeparate": true,
+    "noMarketFallbackForFailedPoolQuote": true,
+    "realSourcesVerifiedWithoutMocks": true,
+    "noSignInOrTransactions": true,
+    "evidence": "deployments/preview-rate-independence-verification.json"
+  }
+}

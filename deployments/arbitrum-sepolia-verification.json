@@ -1,0 +1,22 @@
+{
+  "chainId": 421614,
+  "checkedAt": "2026-11-18T01:44:17.126Z",
+  "blockNumber": "330272053",
+  "contracts": {
+    "usdc": "0xfe300e67e35904b062849651e3409ef30518fb61",
+    "eurc": "0x7a77eab652ee22f29647cbde23b27c30338fb661",
+    "router": "0x9867c0f990779e8e03a93b01447a2387ced7dc1f",
+    "quoter": "0x03ae4004e070d15016b0a4f0feaf6a5abc7b7829",
+    "pool": "0x286D576d3c8f471E12DB1B806FcA483Ec79d1a88",
+    "supplier": "0xAc907DEecad0EEcdAE93Dd3E37b1a2142f594798"
+  },
+  "activeLiquidity": "953896277050",
+  "example": {
+    "eurcOut": "1000",
+    "usdcIn": "1100.319162",
+    "maxUsdcIn": "1103.62012",
+    "allowance": "0.3%"
+  },
+  "zeroDevConfigured": true,
+  "note": "Contract identity, liquidity and exact-output quote verified. This read-only check does not verify passkey authentication or gas sponsorship."
+}

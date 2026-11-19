@@ -1,0 +1,58 @@
+{
+  "chainId": 421614,
+  "deployer": "0x720a8D8A8d109A77B2EB6FB1f576E8A0274eBB18",
+  "usdPerEuro": 1.099,
+  "contracts": {
+    "usdc": {
+      "address": "0xfe300e67e35904b062849651e3409ef30518fb61",
+      "bytecodeHash": "0x83195d9ff9a8aef2cd44945def9d7c4e482db57b31e0080150c49d0fa57ea520"
+    },
+    "eurc": {
+      "address": "0x7a77eab652ee22f29647cbde23b27c30338fb661",
+      "bytecodeHash": "0x83195d9ff9a8aef2cd44945def9d7c4e482db57b31e0080150c49d0fa57ea520"
+    },
+    "factory": {
+      "address": "0x2448cd83251ca9f5e2a20009c1f494b8f7c2dec0",
+      "bytecodeHash": "0xa9cb11ffa1b1bf9a9a2b70b66f6a22db3e8328b37ec44e6ce602749081efdb6d"
+    },
+    "router": {
+      "address": "0x9867c0f990779e8e03a93b01447a2387ced7dc1f",
+      "bytecodeHash": "0x4ab2bb678b8aa5c9267d00ec2ac6e6603909f2a6c9e8c59daaaf5f4af1ba6710"
+    },
+    "quoter": {
+      "address": "0x03ae4004e070d15016b0a4f0feaf6a5abc7b7829",
+      "bytecodeHash": "0x807900529037b0db5b299ed312e4b1820210b5e9922b6c4fcd4c23de67ee5f1a"
+    },
+    "manager": {
+      "address": "0x95aa3baef13405da787124a3d1b537f6b4fac92d",
+      "bytecodeHash": "0x6d4a795ab08d4b4737c563d58af66cd9c1fe56a4ff3258fec16fd7c5eeade093"
+    },
+    "invoice-gateway": {
+      "address": "0x0d90c515a2bda3ec595173cbcba5d4cb2f5777e9",
+      "bytecodeHash": "0x7a48dee15b9f638d73083575319622536aef42ca4db930f53c231aa593579d4b"
+    },
+    "backup-validator-factory": {
+      "address": "0x8d1aa02266b090e8eab1471593d92ad6b6381e14",
+      "bytecodeHash": "0x71e7d5a5253f070636e8e12cbcbf58158fe65f9af02b40f259567325f6bc031f"
+    }
+  },
+  "transactions": {
+    "usdc": "0x299e042fed6aca1f6438a710fd19ad65f5de589b7af190ed33d4e9d62765bd1a",
+    "eurc": "0x103e761fcbaf6a49f3a979cdec77eac28d96a809efeb0da7a943fcc401dca6bc",
+    "factory": "0x786bafb67e960326c5bd3b7288d8e12a1e27835ffed0997ea9e88ba0f45d320c",
+    "enable-fee": "0x013db1b754364d1c2c5de1c42d34cfb393fa9f115bafa82dc3cc34dc3331fbea",
+    "router": "0xa22ac82a5e76b1829b675f8134908b0cc0ef3c983cb854bb3acaf1da17c6223d",
+    "quoter": "0xdde31db164fff8f9954f3adf3244c0e19a6bebbc4d7552c1395a615bce74bfa3",
+    "manager": "0xddbb8bb56779e316f1ff9f4789bcd1148260f705a765184c11a4e8a025c0301e",
+    "initialize-pool": "0x7047bfaca79d00a92b8ad45deeee1b819b9a31e4a230fb23df591224f5800c6c",
+    "approve-token0": "0x77bf070286b6f4a2436f527b9e7b44ff9cf8773a3fa33d650fe6f60bc777d33b",
+    "approve-token1": "0x364d5e9e6e6f3065c3362274b30919cdbb9c2133a16f1eab5cd8066ee74214a5",
+    "seed-pool": "0x94b808c537441663eecb73e6191b8e0cd986b3c726f053b34793fcfd7c668311",
+    "clear-token0": "0x415572a5de5192ef751fb297f77b6250613c78e50cebc53aa56e5dc3a0e059cb",
+    "clear-token1": "0xf3927041f6974c116009d5b96f3d0c9aa6d2ff4d484aa07b2a0fc46c44431f48",
+    "invoice-gateway": "0xdadc438312ccff786cf14b903ff2aeb2982c5b4169a7b62ab49096a739a4082d",
+    "backup-validator-factory": "0x2124a5b29bc8674f8491db705a70e56d1410a6568c2725bf4de358346479cf4c"
+  },
+  "completed": true,
+  "supplier": "0xAc907DEecad0EEcdAE93Dd3E37b1a2142f594798"
+}

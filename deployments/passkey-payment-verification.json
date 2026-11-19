@@ -1,0 +1,16 @@
+{
+  "chainId": 421614,
+  "appOrigin": "https://tidewater-pay.vercel.app",
+  "checkedAt": "2026-11-19T00:46:09.376Z",
+  "transactionUrl": "https://sepolia.arbiscan.io/tx/0xb31952181c6d13f918d7b928e7874f8dba22aa40abae897ae9263bcc005c6806",
+  "sender": "0xC9600a963a7077173Dc3134208FCEaabdde2e95C",
+  "supplier": "0xAc907DEecad0EEcdAE93Dd3E37b1a2142f594798",
+  "paymaster": "0x777777777777AeC03fd955926DbF81597e66834C",
+  "actualGasCostWei": "39260892244000",
+  "eurcDelivered": "1000",
+  "wallet": "ZeroDev Kernel 3.3 with a passkey owner",
+  "paymentAuthorization": "Passkey-approved, single-operation permission session",
+  "sponsorship": "EntryPoint success event has a nonzero paymaster; sender holds zero native ETH",
+  "returningLoginVerified": true,
+  "note": "Executed using a disposable browser virtual authenticator. No passkey credentials are saved in this report."
+}
