@@ -44,7 +44,7 @@ npm run dev
 
 Open http://127.0.0.1:3000 and select **Explore the interactive demo**. No credentials are needed for preview. All preview balances, sign-in bypass, bank connections, swaps and payouts are explicitly simulated; preview never fabricates transaction hashes. Refreshing resets the session.
 
-The preview has four screens: sign-in, overview, send, and activity. The first attempt demonstrates the scripted 0.5% adverse-rate movement, blocked by the 0.3% allowance. Refresh the quote and send again to finish the journey and see the summary. The summary uses the selected amount and measured duration.
+The preview has four screens: sign-in, overview, send, and activity. The first attempt demonstrates the scripted 0.5% adverse-rate movement, blocked by the 0.3% allowance. Refresh the quote and send again to finish the journey and see the summary. The summary uses the selected amount and measured duration. Live mode does not force a first-attempt failure; its onchain maximum-input limit protects every payment. Use the separate live rate-protection control above to demonstrate an adverse pool movement.
 
 ## Connect real ZeroDev passkeys
 
@@ -127,7 +127,7 @@ Choose a stable production hostname, allow its exact HTTPS origin in ZeroDev, an
 
 ## Reference rates
 
-`GET /api/rates` gets EURC/USD and USDC/USD prices from CoinGecko and divides them to produce the EURC/USDC reference, revalidating at most once per minute. Optional `COINGECKO_DEMO_API_KEY` stays server-side. Stale/error responses are explicitly labeled illustrative. Live payment prices always come from the configured pool, never the external reference. A reference feed alone cannot keep a test pool's exchange price aligned with the real market.
+`GET /api/rates` gets EURC/USD and USDC/USD prices from CoinGecko and divides them to produce the EURC/USDC reference, revalidating at most once per minute. Optional `COINGECKO_DEMO_API_KEY` stays server-side. Stale/error responses set `live: false` and `usdcPerEuro: null`; the UI shows the CoinGecko comparison as unavailable. The response's illustrative `usdPerEuro` value is never displayed as a live CoinGecko comparison or substituted for a configured pool quote. Live payment prices always come from the configured pool, never the external reference. A reference feed alone cannot keep a test pool's exchange price aligned with the real market.
 
 ## Spec decisions and phase boundary
 
